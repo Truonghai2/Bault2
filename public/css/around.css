@@ -1,0 +1,190 @@
+.main{
+    margin-top: 82px;
+}
+.content-header{
+    border-bottom: 1px solid #ccc;
+}
+.main .left-main .content{
+    margin-top: 20px;
+}
+.main .left-main .content .content-header .user{
+    align-items: center;
+    padding: 10px;
+
+}
+.main .left-main .content .content-header .user .name{
+    margin-left: 10px;
+}
+.main .left-main .content .content-header .user .avatar img{
+    width: 40px;
+    border-radius: 50%;
+}
+.main .left-main{
+    background-color: #D8D8D8;
+    position: fixed;
+    width: 415px;
+    border-right: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    height: 87%;
+    margin-left: 30px;
+}
+.main .main-right{
+    margin-left: 458px;
+    width: 1056px;
+    
+}
+
+.noUi-horizontal .noUi-handle{
+    border-radius: 50%;
+    width: 20px !important;
+    height: 20px !important;
+    cursor: pointer;
+    top: -7px !important;
+    
+}
+.noUi-target{
+    border-radius: 90px !important;
+   cursor: pointer;
+}
+.noUi-horizontal{
+    height: 6px !important;
+}
+.main .left-main .content .main-content .item{
+    margin-top: 15px;
+    max-width: 90%;
+    margin-left: 18px;
+    
+}
+#distance-value{
+    margin-top: 8px;
+    cursor: pointer;
+    color: #878787 !important;
+    float: right;
+}
+.main-content .item .select_birthday{
+    float: right;
+    margin-top: 8px;
+    cursor: pointer;
+    color: #878787 !important;
+}
+.main-content .item .select_birthday p{
+    color: #878787 !important;
+    margin-left: 3px;
+}
+.main-content .item .select_birthday #min-birthday{
+    color: #878787 !important;
+    margin-left: 3px;
+}
+.main-content .item .select_birthday #max-birthday{
+    color: #878787 !important;
+    margin-left: 3px;
+}
+.gender-options .sub-item{
+    margin-left: 56px;
+}
+.stype-options1 .sub-item{
+    margin-left: 39px;
+}
+.stype-options2 .sub-item{
+    margin-left: 39px;
+}
+#range-slider1{
+    margin-top: 15px;
+}
+.resize span{
+ color: #727272 !important;
+}
+.select-gender label{
+    color: #727272 !important;
+    cursor: pointer;
+}
+.select-gender .gender-options{
+    margin-top: 15px;
+}
+.birth-day p{
+    color: #727272 !important;
+}
+.select-stype {
+    margin-top: 5px;
+}
+.select-stype label{
+    color: #727272 !important;
+    cursor: pointer;
+}
+.select-stype .stype-options1{
+    margin-top: 15px;
+}
+
+.who-select label{
+    color: #727272 !important;
+    cursor: pointer;
+}
+.who-select .stype-options2{
+    margin-top: 15px;
+}
+.who-select .stype-options2 .sub-item{
+    margin-left: 56px;
+}
+.erase-location button{
+    border: none;
+    width: 100%;
+    padding:10px;
+    border-radius:10px ;
+    background-color: rgb(255, 53, 53);
+    color: #fff !important;
+    margin-top: 15px;
+}
+#user-list{
+    display: flex;
+}
+.box-user{
+    width: 225px;
+    border-radius: 10px;
+    background-color: #ccc;
+    border: 1px solid #8f8f8f;
+    margin-left: 5px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.box-user .user .avatar li a img{
+    border-top-left-radius:8px  ;
+    border-top-right-radius:8px  ;
+    width: 100%;
+}
+.box-user .user .footer-user .information-user{
+    display: flex;
+    margin-top: 10px;
+}
+.box-user .user .footer-user .information-user .gender{
+    margin-left: 10px;
+}
+.box-user .user .footer-user .information-user .user-age{
+    margin-left: 10px;
+    margin-bottom: 0px !important;
+}
+.user-distance{
+    margin-bottom: 0px !important;
+}
+.user-bigo{
+    margin-bottom: 0px !important; 
+}
+
+.btn-friend button{
+    width: 100%;
+    border: none;
+    margin-top: 5px;
+    padding:10px;
+    border-radius: 10px;
+}
+.btn-friend .accepted button{
+    background-color:#1877F2 ;
+    color: #fff !important;
+}
+.friend-accepted{
+    width: 100%;
+    background-color: #878787;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}

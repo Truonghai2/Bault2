@@ -1,0 +1,110 @@
+
+#dropdown-notifications{
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 10px ;
+    left: 1095px;
+    width: 400px;
+    height: auto;
+    max-height:1200px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px #575757;
+    padding: 5px;
+    overflow: auto;
+}
+#dropdown-notifications .container .dropdown-header{
+    padding: 10px;
+    
+}
+#dropdown-notifications .container .dropdown-header .header-left{
+    justify-content: space-between;
+    align-items: center;
+}
+#dropdown-notifications .container .dropdown-header .header-left .item span{
+    border: none;
+    background-color: inherit;
+    font-size: 20px;
+    font-weight: 550;
+    margin-left: -32px;
+
+}
+#dropdown-notifications .container .dropdown-header .header-left .btn-menu i{
+    margin-bottom: 5px;
+    margin-right: -33px;
+    padding: 5px;
+ 
+    border-radius: 50%;
+    
+}
+
+#dropdown-notifications .container .dropdown-header .header-left .btn-menu i:hover{
+    background-color: #959595;
+}
+#notifications{
+    /* position: relative; */
+}
+#cnt-notifications{
+    position: absolute;
+    background-color: red;
+    padding:0px 5px 0px 5px ;
+    top: 11px;
+    right: 90px;
+    border-radius: 50%;
+    color: #fff !important;
+    font-size: 12.5px;
+}
+.model-notifications{
+    position: relative;
+    cursor: pointer;
+}
+.model-notifications:hover{
+    background-color: #959595;
+    border-radius: 10px;
+    padding: 3px;
+}
+.model-notifications .status {
+    background-color: initial;
+}
+
+.model-notifications .status div i{
+    font-size: 12px !important;
+    color: blueviolet !important;
+}
+.model-notifications .icon i{
+    position: absolute;
+    background-color: blueviolet;
+    color: #fff !important;
+    padding: 5px;
+    border-radius: 50% ;
+
+    font-size: 15px !important;
+    top:24px;
+    left: 34px;
+}
+.model-notifications .avatar a li img{
+    width: 50px;
+    border-radius: 50%;
+}
+.model-notifications .avatar li a img{
+    width: 50px;
+    border-radius: 50%;
+}
+.title .user-name{
+    font-weight: 600;
+    cursor: pointer;
+}
+.title .user-name:hover{
+    text-decoration: underline;
+}
+.model-notifications .content{
+    margin-left: 10px;
+}
+.model-notifications .content .time{
+    font-size: 12px !important;
+}
+.model-notifications.active .content .time{
+    color: blueviolet !important;
+}
+.content-title h6{
+    font-weight: 600;
+}

@@ -1,0 +1,37 @@
+
+.content-null {
+    text-align: center;
+    margin-top: 100px; /* Căn giữa theo chiều dọc */
+}
+
+.title-welcome h1 pre{
+    font-size: 50px;
+    color: blueviolet !important;
+
+}
+
+.title-instruct h4 {
+    font-size: 18px;
+    color: #898989 !important;
+    margin-top: 10px;
+}
+
+.btn-action-random {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: blueviolet !important;
+    /* background-color: #007bff; Màu nền cho nút */
+    border: 2px solid blueviolet;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
+}
+
+.btn-action-random:hover {
+   
+}

@@ -1,0 +1,192 @@
+.main{
+    margin-top: 74px;
+}
+
+
+.main .main-left{
+    width: 350px;
+    flex: 1;
+    background-color: #ccc;
+    border-right: 1px solid #8e8e8e;
+    padding: 2px;
+    margin-top: -5px;
+    height: 100%;
+
+}
+.main .main-left .header-title{
+    padding: 10px;
+    align-items: center;
+}
+.main .main-left .header-title h5{
+    flex: 10;
+    font-weight: 600;
+    font-size: 23px !important;
+}
+.main .main-left .header-title .icon-settings{
+    flex: 0.5
+    ;
+
+}
+.main .main-left .header-title .icon-settings i{
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+.main .main-left .header-title .icon-settings i:hover{
+    background-color: #979797;
+
+}
+
+.main .main-left .menu li{
+    padding:5px 10px 5px 10px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.main .main-left .menu li:hover{
+    background-color: #949494;
+}
+.main .main-left .menu li .icon i{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #949494;
+}
+.main .main-left .menu li .icon-2{
+    margin-left: 111px;
+}
+.main .main-left .menu li .title{
+    margin-left: 10px;
+}
+.main .main-left .menu li .title span{
+    font-weight: 600;
+    font-size: 16px !important;
+}
+.main .main-left .menu li.active{
+    background-color: #949494;
+    border-radius: 10px;
+}
+.main .main-left .menu li.active .icon i{
+    background-color:#1877F2 ;
+    color: #e7e7e7 !important;
+}
+
+.main .main-right{
+    margin-left: 365px;
+    width: 100%;
+}
+
+
+.main .main-right .show-friendship{
+    margin-top: 30px;
+    width: 100%;
+}
+.main .main-right .show-friendship .header-show-friendship h5{
+    font-weight: 600;
+    flex: 8;
+}
+.main .main-right .show-friendship .header-show-friendship .title{
+    flex: 1;
+    color: #1877F2 !important;
+}
+.main .main-right .show-friendship .header-show-friendship .title p{
+    color: #1877F2 !important;
+    cursor: pointer;
+}
+.main .main-right .show-friendship .header-show-friendship .title p:hover{
+    text-decoration: underline;
+}
+.main .main-right .show-friendship .box-user{
+    background-color: #ccc;
+    width: 225px;
+    height: 370px;
+    border-radius: 10px;
+    border: 1px solid #949494;
+    /* width:(20%); */
+}
+.main .main-right .show-friendship .box-user .user{
+    width: 100%;
+    
+}
+
+.main .main-right .show-friendship .box-user .footer-user{
+    margin-top: 8px;
+}
+.main .main-right .show-friendship .box-user .user .avatar a li img{
+    width: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius:9px ;
+}
+.main .main-right .show-friendship .box-user .footer-user .name a li{
+    font-weight: 600;
+    font-size: 16px !important;
+     
+}
+.main .main-right .show-friendship .box-user .footer-user .btn-friend .accepted button{
+    width: 100%;
+    border: none;
+    background-color: #1877F2;
+    color: #fff !important;
+    border-radius: 10px;
+    padding:10px;
+    margin-top: 8px;
+}
+.main .main-right .show-friendship .box-user .footer-user .btn-friend .erase button{
+    width: 100%;
+    border: none;
+    background-color: #afafaf;
+    
+    border-radius: 10px;
+    padding:10px;
+    margin-top: 8px;
+}
+.main .main-right .show-friendship .box-user .footer-user .btn-friend .accept button{
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    padding:10px;
+    margin-top: 20px;
+    background-color: #afafaf;
+    color: #707070 !important;
+    cursor: not-allowed;
+}
+.main .main-right .show-friendship .box-user .footer-user .btn-friend .erased button{
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    padding:10px;
+    margin-top: 20px;
+    background-color: #afafaf;
+    color: #707070 !important;
+    cursor: not-allowed;
+}
+
+
+.block-show-add-friend .box-user{
+    margin: 0px 2px;
+    position: relative;
+}
+.row{
+    margin-top: 10px;
+}
+.information-user{
+    align-items: center;
+}
+.information-user .gender-user {
+    flex:1;
+}
+.information-user .gender-user .gender{
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.information-user .gender-user .gender:hover{
+    text-decoration: underline;
+}
+.information-user .name{
+    flex: 3
+    ;
+}
+.information-user .name a li:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,132 @@
+.render-comment{
+
+}
+.render-comment .comment-content{
+    
+    position: relative;
+    margin-left: 10px;
+}
+.render-comment .comment-content .comment-content-header{
+    width: auto;
+    background-color: #d0d0d0;
+    border-radius: 15px;
+    max-width: 400px;
+    padding: 10px;
+}
+.render-comment .comment-content .name-user a h6{
+    font-weight: 600;
+}
+.content-cnt{
+    align-items: center;
+    background-color: #aaaaaa;
+    border-radius: 15px ;
+    width: 40px;
+}
+.render-comment .comment-content .comment-content-header .content-body .cnt-like-cmt{
+    position: absolute;
+    right: -25px;
+}
+.content-cnt .icon-like img{
+    width: 25px;
+}
+
+.btn-function .btn-like-comment span{
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+.btn-function .btn-like-comment span:hover{
+    text-decoration: underline;
+}
+.btn-function .btn-like-comment.liked span{
+    /* background-color: ; */ 
+    color: #2D88ff !important;
+}
+
+.btn-relay span{
+    font-size: 12px;
+    font-weight: 600; 
+    margin-left: 15px;
+    cursor: pointer;
+}
+.btn-relay span:hover{
+    text-decoration: underline;
+}
+
+.time-comment span{
+    font-size: 12px;
+    margin-left: 15px;
+}
+.box-comment{
+    margin-top: 10px;
+}
+.select-all-comment span{
+    font-weight: 600;
+    cursor: pointer;
+}
+.select-all-comment span:hover{
+    text-decoration: underline;
+}
+
+#comment-form{
+    padding-bottom: 10px;
+}
+
+
+/* replay comment */
+.relay-comments-render{
+    max-width: 500px;
+    margin-left: 50px;
+}
+
+.relay-comments-render .custom-replay-comment .user .input-cmt{
+    width: 100%;
+    margin-left: 10px;
+}   
+
+.relay-comments-render .custom-replay-comment .user .input-cmt #editable-content{
+    max-width: 500px;
+    background-color: #c7c7c7;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+.custom-replay-comment .user{
+    align-items: center;
+}
+.custom-replay-comment .user .submit i{
+    margin-left: 10px;
+}
+
+#editable-content .name-relay{
+    background-color: #2D88ff;
+}
+
+
+#editable-content .title-reply-comment{
+    margin: 0 !important;
+}
+.title-reply-comment .name-user-reply{
+    background-color: #1D85FC72;
+}
+
+.user-get-name-reply a{
+  
+    font-weight: 600;
+}
+
+.user-get-name-reply a:hover{
+    text-decoration: underline !important;
+}
+
+.img_bg_user {
+    width: 100%; /* Đảm bảo phần tử rộng 100% theo phần tử cha */
+    height: 230px; /* Điều chỉnh chiều cao tùy ý */
+    background-size: cover; /* Phù hợp hình nền để che kín kích thước của phần tử */
+    background-position: center; /* Căn chỉnh hình nền giữa phần tử */
+    background-repeat: no-repeat; /* Ngăn lặp lại hình nền nếu nó không đủ lớn */
+    border-radius: 10px;
+}

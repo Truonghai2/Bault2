@@ -1,0 +1,229 @@
+
+/* post */
+.post-title{
+    background-color: #D8D8D8;
+    border-radius: 10px;
+    max-width: 94%;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.time li{
+    color: #595959 !important;
+    font-size: 12px !important;
+    cursor: pointer;
+    font-weight: 700;
+}
+.time li:hover{
+    text-decoration: underline !important;
+}
+.post-title .container .content p{
+    margin-top: 10px;
+    margin-bottom: 0rem !important;
+}
+.name a li{
+    font-size: 16px;
+    font-weight: 550;
+}
+.post-title .container .header-post-title .avatar img{
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.post-title .container .header-post-title .name {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.post-title .container .header-post-title .menu{
+    float: right;
+    
+    margin-top: 10px;
+    cursor: pointer;
+    flex: 1;
+}
+.post-title .container .header-post-title .menu span{
+    float: right;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 0px 5px 5px 5px;
+    
+}
+.post-title .container .header-post-title .menu span:hover{
+    background-color: #878787;
+    border-radius: 50%;
+}
+.post-title .container .main-img img{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    
+}
+.post-title .container .main-img .item{
+    justify-content: space-around;
+}
+.like-content{
+    cursor: pointer;
+}
+.like-count img{
+    max-width:30px;
+    margin-top: 0px !important ;
+    cursor: pointer;
+}
+.like-count{
+    align-items: center;
+    margin-right: 373px;
+}
+.like-count #like-count{
+    font-weight: 400;
+    cursor: pointer;
+}
+.like-count #like-count:hover{
+    text-decoration:underline;
+    font-weight: 550;
+}
+.icon-comment img{
+    max-width: 25px;
+    margin-top: 0px !important ;
+    cursor: pointer;
+}
+.coment-count{
+    align-items: center;
+   
+}
+.share-count{
+    align-items: center;
+}
+.icon-share{
+    margin-top: 5px;
+}
+svg {
+    fill: #000;
+    stroke: #fff;
+    color: red;
+  }
+/* footer-post-img */
+.footer-post-img {
+    border-top:1px solid#b6b6b6 ;
+    border-bottom:1px solid#b6b6b6 ;
+    justify-content: space-between;
+}
+.footer-post-img .item{
+    padding:3px 3px 3px 3px;
+    
+    
+}
+.footer-post-img .sub-item{
+    
+    align-items: center;
+}
+.like-btn{
+    border: none;
+    
+
+}
+.like-btn .title{
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.unlike-btn{
+    border: none;
+    align-items: center;
+}
+.unlike-btn .title{
+    border: none;
+    margin-top: 6px;
+    margin-left: 5px;
+    color: #2E89FF !important;
+    
+}
+.unlike-btn i {
+    color: #2E89FF !important; 
+}
+.footer-post-img .sub-item:hover{
+    background-color: #969696;
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+.footer-post-img .like{
+    margin-left: 50px;
+}
+.footer-post-img .share{
+    margin-right: 50px;
+}
+
+
+.Render-minicoment {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.Render-minicoment .user{
+    margin-top: 10px;
+    
+}
+.Render-minicoment .user .avt a li img{
+    width: 40px;
+    border-radius: 50%;
+}
+.Render-minicoment .user .input-tile{
+    width: 100%;
+    height: auto;
+}
+.Render-minicoment .user .input-tile input{
+    border: none;
+    outline: none;
+    width: 100%;
+    max-width: 98%;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    margin-left: 6px;
+    background-color: #c7c7c7;
+}
+.Render-minicoment .user .submit button{
+    border: none;
+    background-color: #d8d8d8;
+    align-items: center;
+    margin-top: 9px;
+}
+
+/* dropdow-post */
+.dropdown-menu-post{
+    position: absolute;
+    background-color: #D8D8D8;
+    border-radius: 10px;
+    margin-top: 30px;
+
+    margin-left: 248px;
+    z-index: 100;
+    border: none;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
+}
+.dropdown-menu-post .container .edit{
+    display: flex;
+    align-items: center;
+}
+.dropdown-menu-post .container .remote{
+    display: flex;
+    align-items: center;
+}
+.dropdown-menu-post .container .item{
+    padding:10px 10px 10px 10px;
+    
+}
+.dropdown-menu-post .container .item:hover{
+    background-color: #a0a0a0;
+    border-radius: 10px;
+}
+
+.dropdown-menu-post .container .remote button{
+    border: none;
+    background-color: inherit;
+}
+.dropdown-menu-post .container .item .title{
+    margin-left: 10px;
+}
+.dropdown-menu-post .container .repost-post{
+    display: flex;
+    align-items: center;
+}

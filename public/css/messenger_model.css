@@ -1,0 +1,95 @@
+
+
+.navbar-item{
+    padding: 10px;
+    cursor: pointer;
+}
+.navbar-item .item span{
+    padding: 10px;
+    font-weight: 600;
+}
+.navbar-item .item.active span{
+    background-color: #2D88ff33;
+    color: #2D88ff !important;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+.listOfContacts.active{
+    display: block;
+}
+.listOfContacts{
+    display: none;
+}
+
+
+.navbar-messenger .item{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0px 5px !important;
+    
+}
+.navbar-messenger .item span{
+    font-weight: 600;
+}
+.navbar-messenger .item:hover{
+    background-color:antiquewhite;
+    
+}
+.navbar-messenger .item.active{
+    background-color: #2D88ff33;
+   
+}
+.navbar-messenger .item.active span{
+    color: #2D88ff !important;
+}
+#dropdown-main-messenger .item.active{
+    display: block;
+}
+#dropdown-main-messenger .item{
+    display: none;
+    margin: 0 !important;
+}
+#add_Css .route-layout{
+    cursor: pointer;
+    border-radius: 10px;
+}
+#add_Css .route-layout:hover{
+    background-color: #d0d0d0;
+}
+#add_Css .route-layout .content-messenger{
+    padding: 10px;
+}
+#add_Css .route-layout .content-messenger .user .avatar img{
+    width: 50px;
+    border-radius: 50%;
+}
+#add_Css .route-layout .content-messenger .user {
+    flex: 1;
+}
+#add_Css .route-layout .content-messenger .user .box {
+    flex: 1;
+    margin-left: 10px;
+}
+#add_Css .route-layout .content-messenger .user .box .username h6{
+    font-weight: 600;
+}
+#add_Css .route-layout .content-messenger .user .box .messege .space{
+    margin-left: 5px;
+}
+#add_Css .route-layout .content-messenger .user .box .messege.active span,.space,.time{
+    color: blueviolet !important;
+}
+
+
+#add_Css .route-layout .content-messenger .user .box .messege .time {
+    margin-left: 5px;
+}
+#add_Css .route-layout .content-messenger .status{
+    background-color: initial;
+    flex: 0;
+}
+#add_Css .route-layout .content-messenger .status i{
+    font-size: 12px !important;
+}
